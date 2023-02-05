@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.1.1](https://github.com/cschanaj/nyc/compare/v15.1.0...v15.1.1) (2023-02-05)
+
+
+### Bug Fixes
+
+* add an empty ending newline ([bfa9f22](https://github.com/cschanaj/nyc/commit/bfa9f220eaaf80cf12970bcdada4ab7db7907827))
+* add an empty ending newline ([c6e20c3](https://github.com/cschanaj/nyc/commit/c6e20c340c56deeb54d2286d163c80c51a31f34c))
+* breakage due to glob version changes ([341deeb](https://github.com/cschanaj/nyc/commit/341deeb901140656876c7f8709c2fbe6db62673b))
+* no longer need to promisify rimraf since v4 ([44b1a3f](https://github.com/cschanaj/nyc/commit/44b1a3f7c6685e265430ed713f64a3e59c027246))
+* npm-run-clean.js not working on windows ([b0a6cda](https://github.com/cschanaj/nyc/commit/b0a6cda94b213d44f040c3e1deb132f404642b04))
+* update appveyor.yml ([#13](https://github.com/cschanaj/nyc/issues/13)) ([973a07b](https://github.com/cschanaj/nyc/commit/973a07ba9b86c149282574ec067b585b85085e93))
+
+
+### Reverts
+
+* "chore(deps): bump glob from 7.1.6 to 8.0.3 ([#20](https://github.com/cschanaj/nyc/issues/20))" ([6490dba](https://github.com/cschanaj/nyc/commit/6490dbafc1d6409335a1fda61dd836973e1bbd59))
+* "chore(deps): bump glob from 7.1.6 to 8.0.3 ([#31](https://github.com/cschanaj/nyc/issues/31))" ([7cf5ed3](https://github.com/cschanaj/nyc/commit/7cf5ed3006335bf047c77cb84426a1bf30942181))
+* "ci: breakage due to glob version changes again" ([95b309d](https://github.com/cschanaj/nyc/commit/95b309d24b0f0c8505124c4fda7298722843b18d))
+* "ci: update dependabot schedule to quarterly" ([db0bf00](https://github.com/cschanaj/nyc/commit/db0bf00214c82cc6dd03c817f723ff9968e7903a))
+* "fix: breakage due to glob version changes" ([b532e5c](https://github.com/cschanaj/nyc/commit/b532e5c9bc59eca09255a7cfcbd4ea7eeb4651f9))
+* chore: remove package-lock.json ([ab34ca8](https://github.com/cschanaj/nyc/commit/ab34ca83e005fa8c8b45f6b66817d80905809f43))
+* ci: fix appveyor npm issue ([bd28e61](https://github.com/cschanaj/nyc/commit/bd28e6197b08bbd767e5bab0a31fa3297b450efb))
+* ci: run test on node 10 ([c25dbf1](https://github.com/cschanaj/nyc/commit/c25dbf1d74c0cc84b002ca8f1c140ceabf584710))
+
 ## [15.1.0](https://github.com/istanbuljs/nyc/compare/v15.0.1...v15.1.0) (2020-06-01)
 
 
