@@ -21,7 +21,8 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     env:
-      NO_UPDATE_NOTIFIER: true
+      NO_UPDATE_NOTIFIER: "true"
+      NODE_ENV: "test"
 
     steps:
     - uses: actions/checkout@v3
