@@ -95,7 +95,7 @@
     "source-map-support": "^0.5.16",
     "standard": "^17.0.0",
     "standard-version": "^9.5.0",
-    "tap": "^16.3.0",
+    "tap": "^21.0.0",
     "uuid": "^9.0.0",
     "which": "^4.0.0"
   },
